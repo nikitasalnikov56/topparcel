@@ -1,0 +1,82 @@
+name: topparcel
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+4
+
+environment:
+  sdk: ">=3.0.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Data packages
+  shared_preferences: ^2.1.1
+  dio: ^5.1.2
+  retrofit: ^4.0.1
+  path_provider: ^2.1.1
+  open_file: ^3.3.2
+  pdf: ^3.10.6
+  printing: ^5.11.1
+  flutter_secure_storage: ^9.0.0
+  flutter_paypal: ^0.2.0
+  flutter_paypal_checkout: ^1.0.1
+  flutter_stripe: ^10.0.0
+  
+  
+  # UI
+  fluttertoast: ^8.2.1
+  flutter_svg: ^2.0.5
+  dropdown_button2: ^2.3.9
+  syncfusion_flutter_datepicker: ^23.1.38
+  calendar_date_picker2: ^0.5.3
+  mask_text_input_formatter: ^2.5.0
+  package_info_plus: ^4.2.0
+  flutter_inappwebview: ^5.7.2+3
+  flutter_native_splash: ^2.3.5
+  share_plus: ^7.2.1
+  flutter_email_sender: ^6.0.2
+
+  flutter_localizations:
+    sdk: flutter
+
+  # State managment
+  flutter_bloc: ^8.1.2
+  provider: ^6.0.5
+
+  # DI
+  get_it: ^7.6.0
+
+  intl: ^0.18.0
+  cupertino_icons: ^1.0.2
+  email_validator: ^2.1.16
+  http: ^0.13.3
+  url_launcher: ^6.1.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  retrofit_generator: ^6.0.0+3
+  build_runner: ^2.4.2
+  json_serializable: ^6.6.2
+
+flutter_native_splash:
+  android: true
+
+  color: "#EA560D"
+  image: assets/images/splash_logo.png
+
+  android_12:
+    color: "#EA560D"
+    image: assets/images/splash_logo.png
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/flags/
